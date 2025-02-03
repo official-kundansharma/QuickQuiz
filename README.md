@@ -3,9 +3,11 @@ An interactive app for tech quizzes and skill assessments.
 
 ## 📸 Screenshots  
 <p align="center">
-  <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/Images/screen1.png" alt="Quiz Selection Screen" width="250">
-  <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/Images/screen2.png" alt="Quiz Gameplay Screen" width="250">
-  <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/Images/screen3.png" alt="Quiz Result Screen" width="250">
+  <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/QuickQuiz%20Img/Quiz1.png" alt="Quiz Selection Screen" width="250">
+  <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/QuickQuiz%20Img/Quiz2.png" width="250">
+  <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/QuickQuiz%20Img/Quiz3.png" alt="Quiz Result Screen" width="250">
+   <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/QuickQuiz%20Img/Quiz4.png" alt="Quiz Result Screen" width="250">
+   <img src="https://github.com/official-kundansharma/QuickQuiz/blob/main/QuickQuiz%20Img/Quiz5.png" alt="Quiz Result Screen" width="250">
 </p>  
 
 ---
