@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text=" Congrats! YOU HAVE PASSED THE QUIZ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/score_title"
+        android:paddingVertical="20sp"
+        android:gravity="center" />
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+
+       <com.google.android.material.progressindicator.CircularProgressIndicator
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:id="@+id/score_progress_indicater"
+           android:layout_gravity="center"
+           android:progress="60"
+           app:indicatorSize="100dp"
+           app:trackCornerRadius="50dp"
+           app:trackThickness="8dp"
+
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score_progress_text"
+            android:layout_centerInParent="true"
+            tools:text="50%"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+   </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:id="@+id/score_progress_subtitle"
+        tools:text="6 out of 10 Question You did !"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/finishedQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:text="@string/finish"
+        android:textColor="#283593" />
+</LinearLayout>

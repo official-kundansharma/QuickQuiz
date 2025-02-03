@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "464871262577",
+    "firebase_url": "https://quickquiz-a67ff-default-rtdb.firebaseio.com",
+    "project_id": "quickquiz-a67ff",
+    "storage_bucket": "quickquiz-a67ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464871262577:android:516b33aa5c676bc20a8ed0",
+        "android_client_info": {
+          "package_name": "com.example.quickquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkAUAOLNnnfu5tj3BO4ysez7fmD-JJ_sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

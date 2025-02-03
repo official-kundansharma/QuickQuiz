@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="18dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/question_Indicater_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Question 7/20" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/timer"
+            android:layout_toStartOf="@+id/question_indicater_timer"
+            tools:tint="@color/blue"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_indicater_timer"
+            android:layout_marginEnd="10dp"
+            tools:text="5:Minutes"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+           android:layout_alignParentEnd="true"
+            />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qustion_progress_indicater"
+        tools:progress="40"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/orange"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="4dp"
+        android:layout_marginVertical="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/question_textView"
+                android:layout_marginVertical="8dp"
+                android:layout_weight="20"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="@color/blue"
+                tools:text="What is Android OS?"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Ans A"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginVertical="4dp"
+                    android:paddingVertical="16dp"
+                    android:gravity="center_vertical"
+                    android:backgroundTint="#E6E6E6"
+                    android:id="@+id/btn0"
+                    tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Ans B"
+                android:layout_marginVertical="4dp"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:backgroundTint="#E6E6E6"
+                android:textColor="@color/black"
+                android:paddingVertical="16dp"
+                android:id="@+id/btn1"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Ans C"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginVertical="4dp"
+                android:paddingVertical="16dp"
+                android:gravity="center_vertical"
+                android:backgroundTint="#E6E6E6"
+                android:id="@+id/btn2"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Ans D"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginVertical="4dp"
+                android:paddingVertical="16dp"
+                android:gravity="center_vertical"
+                android:backgroundTint="#E6E6E6"
+                android:id="@+id/btn3"
+                />
+
+
+<!--            Button for next -->
+
+            <Button
+                android:id="@+id/next_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:paddingVertical="16dp"
+                android:layout_gravity="end"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:backgroundTint="@color/orange"
+
+                android:text="@string/next"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Add more UI elements for your quiz here -->
+
+</LinearLayout>
