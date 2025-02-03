@@ -76,8 +76,7 @@ Each quiz consists of:
 
 ---
 
-## 📜 **License**  
-🔹 Licensed under **GNU General Public License v3.0**  
+
 ## 📜 License  
 This project is licensed under the **GNU General Public License v3.0**.  
 See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) for details.  
